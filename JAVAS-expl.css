@@ -11,12 +11,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 150px;
+  height: 7.813vw;
   text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 168px;
+  padding: 0 8.750vw;
   transition: 0.4s;
   background-color: #191919;
   z-index: 1;
@@ -39,134 +39,134 @@ header .main-menu .circle {
 }
 /******* 메인 이름 *******/
 .project-name {
-  margin-top: 280px;
-  margin-left: 310px;
-  font-size: 100px;
+  margin-top: 14.583vw;
+  margin-left: 16.146vw;
+  font-size: 5.208vw;
   text-transform: uppercase;
 }
 .project-name .team-javas {
-  margin: 56px 0 0 545px;
-  font-size: 90px;
+  margin: 2.917vw 0 0 28.385vw;
+  font-size: 4.688vw;
 }
 .project-name .team-javas li:last-child {
-  margin-left: 40px;
+  margin-left: 2.083vw;
 }
 /******* 목표 *******/
 .target {
-  margin-top: 375px;
+  margin-top: 19.531vw;
 }
 .target-box {
-  margin-left: 210px;
+  margin-left: 10.938vw;
 }
 .target h2 {
-  font-size: 30px;
+  font-size: 1.563vw;
   font-weight: bold;
 }
 .target .first {
   display: flex;
   align-items: center;
-  margin: 30px 30px;
-  font-size: 25px;
-  height: 86px;
+  margin: 1.563vw;
+  font-size: 1.302vw;
+  height: 4.479vw;
 }
 .target .first .expl li {
-  margin: 20px 0;
+  margin: 1.042vw 0;
 }
 .target .first .silme img {
-  width: 288px;
-  margin-left: 494px;
-  margin-bottom: 50px;
+  width: 15vw;
+  margin-left: 25.729vw;
+  margin-bottom: 2.604vw;
 }
 /******* overview *******/
 .target .overview {
-  margin: 250px 0 0 130px;
+  margin: 13.021vw 0 0 6.771vw;
 }
 .target .overview h3 {
-  font-size: 40px;
+  font-size: 2.083vw;
   text-transform: capitalize;
-  margin-bottom: 70px;
+  margin-bottom: 3.646vw;
   font-weight: bold;
 }
 .target .overview img {
-  width: 1665px;
+  width: 86.719vw;
 }
 .target .overview .introduce {
-  margin-top: 80px;
-  font-size: 25px;
+  margin-top: 4.167vw;
+  font-size: 1.302vw;
 }
 .target .overview .introduce li {
-  margin: 20px 0;
+  margin: 1.042vw 0;
 }
 .target .overview .introduce li:last-child {
   line-height: 1.5;
 }
 .target .overview .introduce span {
-  margin-right: 48px;
+  margin-right: 2.500vw;
 }
 .target .overview .introduce .work span {
-  margin-left: 115px;
+  margin-left: 5.990vw;
 }
 /******* Process *******/
 .process-style-guide {
-  margin-top: 480px;
+  margin-top: 25vw;
 }
 .process-style-guide .line {
-  padding-top: 167px;
-  padding: 167px 0 290px 0;
+  padding-top: 8.698vw;
+  padding: 8.698vw 0 15.104vw 0;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
 .process-style-guide .process {
-  margin-left: 200px;
+  margin-left: 10.417vw;
 }
 .process-style-guide .process h2 {
-  font-size: 40px;
+  font-size: 2.083vw;
   text-transform: capitalize;
-  margin-bottom: 80px;
+  margin-bottom: 4.167vw;
   font-weight: bold;
 }
 .process-style-guide .process .process-text {
-  margin-left: 400px;
-  font-size: 25px;
+  margin-left: 20.833vw;
+  font-size: 1.302vw;
 }
 .process-style-guide .process .process-text li {
-  margin: 30px 0;
+  margin: 1.563vw 0;
 }
 /******* style-guide *******/
 .style-guide h2 {
-  margin: 180px 0 110px 200px;
-  font-size: 40px;
+  margin: 9.375vw 0 5.729vw 10.417vw;
+  font-size: 2.083vw;
   font-weight: bold;
   text-transform: capitalize;
 }
 /******* main-color 메인 컬러*******/
 .style-guide .main-color {
-  margin-left: 434px;
+  margin-left: 22.604vw;
 }
 .style-guide .main-color h4 {
-  margin-bottom: 46px;
+  margin-bottom: 2.396vw;
   text-transform: capitalize;
-  font-size: 28px;
+  font-size: 1.458vw;
 }
 .style-guide .main-color .color-name {
   display: flex;
 }
 .style-guide .main-color .color-name li {
   border: 1px solid #fff;
-  width: 97px;
-  height: 97px;
-  border-radius: 20px;
-  margin: 0 35px;
+  width: 5.052vw;
+  height: 5.052vw;
+  border-radius: 1.042vw;
+  margin: 0 1.823vw;
   text-align: center;
   line-height: 7;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 0.938vw;
 }
 .style-guide .main-color .color-name li:first-child {
   background-color: #ebebeb;
   border: none;
   color: #222;
-  margin-left: 50px;
+  margin-left: 2.604vw;
 }
 .style-guide .main-color .color-name li:last-child {
   background-color: #fff;
@@ -176,166 +176,172 @@ header .main-menu .circle {
 /******* fonts 폰트 크기******/
 .process-style-guide {
   border-bottom: 1px solid #fff;
-  padding-bottom: 180px;
+  padding-bottom: 9.375vw;
 }
 .process-style-guide .fonts {
-  margin: 110px 0 0 434px;
+  margin: 5.729vw 0 0 22.604vw;
 }
 .process-style-guide .fonts .fonts-flex {
   display: flex;
 }
 .process-style-guide .fonts h4 {
-  font-size: 28px;
+  font-size: 1.458vw;
   text-transform: capitalize;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 2.604vw;
 }
 .fonts .fonts-box {
-  margin-left: 10px;
+  margin-left: 0.521vw;
 }
 
 /****** 공통 font-CSS *****/
 .fonts .fonts-box .text {
   display: flex;
   align-items: center;
-  margin: 20px 0;
+  margin: 1.042vw 0;
 }
 .fonts .fonts-box .text h5 {
-  font-size: 25px;
+  font-size: 1.302vw;
 }
 
 /******* fonts-text1 ******/
 .fonts .fonts-box .fonts-text1 h5 {
-  margin-right: 134px;
+  margin-right: 6.979vw;
 }
 .fonts .fonts-box .fonts-text1 .size40 {
-  font-size: 40px;
-  margin: 0 16px;
+  font-size: 2.083vw;
+  margin: 0 0.833vw;
 }
 /******* fonts-text2 ******/
 .fonts .fonts-box .fonts-text2 h5 {
-  margin-right: 45px;
+  margin-right: 2.344vw;
 }
 .fonts .fonts-box .fonts-text2 .size36 {
-  font-size: 36px;
-  margin: 0 16px;
+  font-size: 1.875vw;
+  margin: 0 0.833vw;
 }
 /******* fonts-text3 ******/
 .fonts .fonts-box .fonts-text3 h5 {
-  margin-right: 63px;
+  margin-right: 3.281vw;
 }
 .fonts .fonts-box .fonts-text3 .size30 {
-  font-size: 30px;
-  margin: 0 16px;
+  font-size: 1.563vw;
+  margin: 0 0.833vw;
 }
 /******* fonts-text4 ******/
 .fonts .fonts-box .fonts-text4 h5 {
-  margin-right: 85px;
+  margin-right: 4.427vw;
 }
 .fonts .fonts-box .fonts-text4 .size30 {
-  font-size: 30px;
-  margin: 0 16px;
+  font-size: 1.563vw;
+  margin: 0 0.833vw;
 }
 /******* fonts-text5 ******/
 .fonts .fonts-box .fonts-text p {
-  font-size: 18px;
+  font-size: 0.938vw;
 }
 /******* fonts-2 서체******/
 .fonts-2 {
-  margin: 10px 0 0 130px;
-  font-size: 25px;
+  margin: 0.521vw 0 0 6.771vw;
+  font-size: 1.302vw;
 }
 .fonts-2 .fonts-box2 {
   display: flex;
   align-items: center;
-  margin-bottom: 23px;
+  margin-bottom: 1.198vw;
   text-transform: capitalize;
 }
 .fonts-2 .fonts-box2 h5 {
-  margin-right: 30px;
+  margin-right: 1.563vw;
 }
 .fonts-2 .fonts-box2 p {
-  margin-right: 30px;
+  margin-right: 1.563vw;
 }
 .fonts-2 .fonts-box2 .kr-font {
-  margin-right: 68px;
+  margin-right: 3.542vw;
 }
 .fonts-2 .fonts-box2 .en-font {
-  margin-left: 90px;
+  margin-left: 4.688vw;
 }
 
 /******* 퍼블리싱 ******/
 .publishing {
-  margin-top: 120px;
+  margin-top: 6.250vw;
   border-bottom: 1px solid #fff;
-  padding-bottom: 190px;
+  padding-bottom: 9.896vw;
 }
 .publishing h2 {
-  margin: 0 0 60px 200px;
-  font-size: 40px;
+  margin: 0 0 3.125vw 10.417vw;
+  font-size: 2.083vw;
   font-weight: bold;
 }
 .publishing .guide {
-  margin-left: 510px;
+  margin-left: 26.563vw;
 }
 .publishing .guide .guide-line {
-  padding: 25px 50px;
+  padding: 1.302vw 2.604vw;
   background-color: #fff;
   color: #222;
   font-size: 20px;
   font-weight: bold;
 }
 .publishing .guide-text {
-  margin-top: 65px;
-  font-size: 25px;
+  margin-top: 3.385vw;
+  font-size: 1.302vw;
 }
 .publishing .guide-text p {
-  margin: 30px 0;
+  margin: 1.563vw 0;
 }
 .publishing .guide-text .technology {
   display: flex;
   align-items: center;
 }
 .publishing .guide-text .technology img {
-  margin: 6px 42px 0 0;
-  width: 70px;
+  margin: 0.313vw 2.188vw 0 0;
+  width: 3.646vw;
 }
 .publishing .guide li img {
-  width: 288px;
+  width: 15vw;
 }
 .guide .rombo {
   display: flex;
 }
 .guide .rombo .rombo-img:last-child {
-  margin-left: 390px;
+  margin-left: 20.313vw;
 }
 /******* 문제해결 ******/
 .problem-box {
-  margin-top: 220px;
+  margin-top: 11.458vw;
 }
 .problem-box .problem-text {
-  font-size: 40px;
+  font-size: 2.083vw;
   font-weight: bold;
-  margin-left: 200px;
+  margin-left: 10.417vw;
 }
 .problem-box .problem h2 {
-  font-size: 30px;
-  margin-bottom: 50px;
+  font-size: 1.563vw;
+  margin-bottom: 2.604vw;
   text-transform: capitalize;
 }
 .problem-box .problem {
-  margin: 100px 0 0 245px;
+  margin: 5.208vw 0 0 12.760vw;
 }
 .problem-box .problem .solve {
   display: flex;
   align-items: center;
-  margin-left: 180px;
   border-bottom: 1px solid #fff;
+  width: 76.563vw;
 }
 .problem-box .problem .solve li {
-  margin-right: 300px;
+  margin-left: 9.375vw;
+  font-size: 1.302vw;
+}
+.problem-box .problem .solve li p {
+  margin-bottom: 4.688vw;
 }
 .problem-box .problem .solve img {
-  width: 50px;
+  width: 2vw;
+  margin-bottom: 5.104vw;
+
 }
 /******* fonts ******/
