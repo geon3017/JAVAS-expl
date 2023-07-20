@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+body {
+  background-color: #191919;
+  font-family: 'NanumSquareNeo-Variable', -apple-system, BlinkMacSystemFont,
+    'Malgun Gothic', '맑은 고딕', helvetica, 'Apple SD Gothic Neo', sans-serif;
+  color: #fff;
+}
+/******* 메뉴바 *******/
+.main-menu .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 168px;
+  transition: 0.4s;
+  background-color: #191919;
+  z-index: 1;
+}
+/******** 움직이는 원 ********/
+.main-menu .circle {
+  background: url(./image/little-star-white.png) no-repeat 50% / contain;
+  width: 70px;
+  height: 70px;
+  list-style: none;
+}
+header .main-menu .circle {
+  animation: rotate_image 8s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/******* 메인 이름 *******/
+.project-name {
+  margin-top: 280px;
+  margin-left: 310px;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+.project-name .team-javas {
+  margin: 56px 0 0 545px;
+  font-size: 90px;
+}
+.project-name .team-javas li:last-child {
+  margin-left: 40px;
+}
+/******* 목표 *******/
+.target {
+  margin-top: 375px;
+}
+.target-box {
+  margin-left: 210px;
+}
+.target h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.target .first {
+  display: flex;
+  align-items: center;
+  margin: 30px 30px;
+  font-size: 25px;
+  height: 86px;
+}
+.target .first .expl li {
+  margin: 20px 0;
+}
+.target .first .silme img {
+  width: 288px;
+  margin-left: 494px;
+  margin-bottom: 50px;
+}
+/******* overview *******/
+.target .overview {
+  margin: 250px 0 0 130px;
+}
+.target .overview h3 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+.target .overview img {
+  width: 1665px;
+}
+.target .overview .introduce {
+  margin-top: 80px;
+  font-size: 25px;
+}
+.target .overview .introduce li {
+  margin: 20px 0;
+}
+.target .overview .introduce li:last-child {
+  line-height: 1.5;
+}
+.target .overview .introduce span {
+  margin-right: 48px;
+}
+.target .overview .introduce .work span {
+  margin-left: 115px;
+}
+/******* Process *******/
+.process-style-guide {
+  margin-top: 480px;
+}
+.process-style-guide .line {
+  padding-top: 167px;
+  padding: 167px 0 290px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.process-style-guide .process {
+  margin-left: 200px;
+}
+.process-style-guide .process h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+.process-style-guide .process .process-text {
+  margin-left: 400px;
+  font-size: 25px;
+}
+.process-style-guide .process .process-text li {
+  margin: 30px 0;
+}
+/******* style-guide *******/
+.style-guide h2 {
+  margin: 180px 0 110px 200px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/******* main-color 메인 컬러*******/
+.style-guide .main-color {
+  margin-left: 434px;
+}
+.style-guide .main-color h4 {
+  margin-bottom: 46px;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+.style-guide .main-color .color-name {
+  display: flex;
+}
+.style-guide .main-color .color-name li {
+  border: 1px solid #fff;
+  width: 97px;
+  height: 97px;
+  border-radius: 20px;
+  margin: 0 35px;
+  text-align: center;
+  line-height: 7;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.style-guide .main-color .color-name li:first-child {
+  background-color: #ebebeb;
+  border: none;
+  color: #222;
+  margin-left: 50px;
+}
+.style-guide .main-color .color-name li:last-child {
+  background-color: #fff;
+  border: none;
+  color: #222;
+}
+/******* fonts 폰트 크기******/
+.process-style-guide {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 180px;
+}
+.process-style-guide .fonts {
+  margin: 110px 0 0 434px;
+}
+.process-style-guide .fonts .fonts-flex {
+  display: flex;
+}
+.process-style-guide .fonts h4 {
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.fonts .fonts-box {
+  margin-left: 10px;
+}
+
+/****** 공통 font-CSS *****/
+.fonts .fonts-box .text {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.fonts .fonts-box .text h5 {
+  font-size: 25px;
+}
+
+/******* fonts-text1 ******/
+.fonts .fonts-box .fonts-text1 h5 {
+  margin-right: 134px;
+}
+.fonts .fonts-box .fonts-text1 .size40 {
+  font-size: 40px;
+  margin: 0 16px;
+}
+/******* fonts-text2 ******/
+.fonts .fonts-box .fonts-text2 h5 {
+  margin-right: 45px;
+}
+.fonts .fonts-box .fonts-text2 .size36 {
+  font-size: 36px;
+  margin: 0 16px;
+}
+/******* fonts-text3 ******/
+.fonts .fonts-box .fonts-text3 h5 {
+  margin-right: 63px;
+}
+.fonts .fonts-box .fonts-text3 .size30 {
+  font-size: 30px;
+  margin: 0 16px;
+}
+/******* fonts-text4 ******/
+.fonts .fonts-box .fonts-text4 h5 {
+  margin-right: 85px;
+}
+.fonts .fonts-box .fonts-text4 .size30 {
+  font-size: 30px;
+  margin: 0 16px;
+}
+/******* fonts-text5 ******/
+.fonts .fonts-box .fonts-text p {
+  font-size: 18px;
+}
+/******* fonts-2 서체******/
+.fonts-2 {
+  margin: 10px 0 0 130px;
+  font-size: 25px;
+}
+.fonts-2 .fonts-box2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px;
+  text-transform: capitalize;
+}
+.fonts-2 .fonts-box2 h5 {
+  margin-right: 30px;
+}
+.fonts-2 .fonts-box2 p {
+  margin-right: 30px;
+}
+.fonts-2 .fonts-box2 .kr-font {
+  margin-right: 68px;
+}
+.fonts-2 .fonts-box2 .en-font {
+  margin-left: 90px;
+}
+
+/******* 퍼블리싱 ******/
+.publishing {
+  margin-top: 120px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 190px;
+}
+.publishing h2 {
+  margin: 0 0 60px 200px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.publishing .guide {
+  margin-left: 510px;
+}
+.publishing .guide .guide-line {
+  padding: 25px 50px;
+  background-color: #fff;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+}
+.publishing .guide-text {
+  margin-top: 65px;
+  font-size: 25px;
+}
+.publishing .guide-text p {
+  margin: 30px 0;
+}
+.publishing .guide-text .technology {
+  display: flex;
+  align-items: center;
+}
+.publishing .guide-text .technology img {
+  margin: 6px 42px 0 0;
+  width: 70px;
+}
+.publishing .guide li img {
+  width: 288px;
+}
+.guide .rombo {
+  display: flex;
+}
+.guide .rombo .rombo-img:last-child {
+  margin-left: 390px;
+}
+/******* 문제해결 ******/
+.problem-box {
+  margin-top: 220px;
+}
+.problem-box .problem-text {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 200px;
+}
+.problem-box .problem h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+.problem-box .problem {
+  margin: 100px 0 0 245px;
+}
+.problem-box .problem .solve {
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+}
+.problem-box .problem .solve img {
+  width: 50px;
+}
+/******* fonts ******/

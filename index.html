@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JAVAS설명페이지</title>
+  <!----- favicon ----->
+  <!-- open graph -->
+  <!-- minireset -->
+  <link rel="stylesheet" href="./common/minireset.min.css">
+  <!-- font -->
+  <link rel="stylesheet" href="./common/fons.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./common/public.css">
+  <!-- 내가 작성한 css -->
+  <link rel="stylesheet" href="./JAVAS-expl.css">
+  <!-- jQuery -->
+  <link rel="stylesheet" href="./common/jquery-3.7.0.min.js">
+  <!-- js -->
+  <!-- 내가 작성한 js -->
+  <script src="./JAVAS-expl.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="main-menu">
+      <div class="header">
+        <!----- home ----->
+        <div class="name">
+          <a href="#">geon</a>
+        </div>
+        <!----- 로고 ----->
+        <div class="logo">
+          <li class="circle" id="top"></li>
+        </div>
+        <!----- 햄버거메뉴 ----->
+        <div class="hamburger_btn">
+          <label class="container">
+            <input type="checkbox" class="checkbox">
+            <div class="checkmark">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <ul class="menu" id="menu">
+      <li><a href="#homeback" id="home">home</a></li>
+      <li><a href="#about-me" id="about">PlayStation</a></li>
+      <li><a href="#about-me" id="about">VOLVO</a></li>
+      <li><a href="#about-me" id="about">베이힐풀앤빌라</a></li>
+    </ul>
+    <div class="project-name">
+      <h1>team-javas</h1>
+      <ul class="team-javas">
+        <li>"bay hill</li>
+        <li>pool & villa"</li>
+      </ul>
+    </div>
+  </header>
+  <section class="target">
+    <div class="target-box">
+      <h2>목표</h2>
+      <div class="first">
+        <ul class="expl">
+          <li>1. 스크롤 이벤트를 사용하여 텍스트 좌우롤링 완성하기</li>
+          <li>2. 협업을 위한 커뮤니케이션 기술 익히기</li>
+        </ul>
+        <div class="silme"><img src="./image/smile.png" alt="웃는 이모지"></div>
+      </div>
+    </div>
+    <div class="overview">
+      <h3>overview</h3>
+      <img src="./image/베이힐.png" alt="팀프로젝트 베이힐 메인 사진">
+      <ul class="introduce">
+        <li><span>팀</span>명 : JAVAS 2- 팀원: 이수민 이예지 최 건 이지은</li>
+        <li>작업기간 : 230630 ~ 230710 </li>
+        <li class="work">담당업무 : 메인 페이지 스크롤 이벤트(스크롤시 이미지확대, 좌우 텍스트 롤링)<br><span>리디자인</span><br><span>reservation 페이지
+            퍼블리싱</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="process-style-guide">
+    <div class="line">
+      <div class="process">
+        <h2>process</h2>
+        <ul class="process-text">
+          <li>1. 리디자인 사이트 선정</li>
+          <li>2. 리디자인 사이트에서 각각 main, sub-page, contact구역 정함</li>
+          <li>3.퍼블리싱 가이드 라인 스타일 가이드 구성</li>
+          <li>4.디자인 피드백 후 통과하고 맡은 구역 html, css, js 작업</li>
+          <li>5.README파일로 작업일지 작성</li>
+          <li>6.서로 작업한 페이지 Github에 올리기</li>
+          <li>7.각 페이지 링크 연결 작업</li>
+        </ul>
+      </div>
+    </div>
+    <div class="style-guide">
+      <h2>style-guide</h2>
+      <div class="main-color">
+        <h4>main</h4>
+        <ul class="color-name">
+          <li>ebebeb</li>
+          <li>000000</li>
+          <li>ffffff</li>
+        </ul>
+      </div>
+    </div>
+    <div class="fonts">
+      <h4>font</h4>
+      <div class="fonts-flex">
+        <ul class="fonts-box">
+          <li>
+            <div class="fonts-text1 text">
+              <h5>메인 - 기준</h5>
+              <p>40px</p>
+              <p class="size40">가나다라</p>
+              <p class="size40">Aa</p>
+            </div>
+          </li>
+          <li>
+            <div class="fonts-text2 text">
+              <h5>방&부대시설 - 기준</h5>
+              <p>36px</p>
+              <p class="size36">가나다라</p>
+              <p class="size36">Aa</p>
+            </div>
+          </li>
+          <li>
+            <div class="fonts-text3 text">
+              <h5>예약페이지 - 기준</h5>
+              <p>30px</p>
+              <p class="size30">가나다라</p>
+              <p class="size30">Aa</p>
+            </div>
+          </li>
+          <li>
+            <div class="fonts-text4 text">
+              <h5>contact - 기준</h5>
+              <p>30px</p>
+              <p class="size30">가나다라</p>
+              <p class="size30">Aa</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="fonts-2">
+          <li>
+            <div class="fonts-box2">
+              <h5>메인</h5>
+              <p class="kr-font">pretebdard</p>
+              <p>가나다라</p>
+              <p>Aa</p>
+            </div>
+          </li>
+          <li>
+            <div class="fonts-box2">
+              <h5>국문</h5>
+              <p>NanumSquare</p>
+              <p>가나다라</p>
+            </div>
+          </li>
+          <li>
+            <div class="fonts-box2">
+              <h5>영문</h5>
+              <p>gotham</p>
+              <p class="en-font">Aa</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="publishing">
+    <h2>퍼블리싱</h2>
+    <ul class="guide">
+      <li>
+        <a class="guide-line" href="#">퍼블리싱 가이드라인</a>
+      </li>
+      <li>
+        <ul class="rombo">
+          <div class="guide-text">
+            <p>• Green Sock플러그인 사용</p>
+            <p>• js 이용한 텍스트 좌우 스크롤 이벤트</p>
+            <ul class="technology">
+              <li><img src="./image/Arrow-left.png" alt="우측 화살표"></li>
+              <li>
+                <a href="#">기술서 보러가기</a>
+              </li>
+            </ul>
+            <p>Flex, Grid, Position 이용 레이아웃 구현</p>
+          </div>
+          <li class="rombo-img"><img src="./image/rombo.png" alt="다이아몬드 모양"></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section class="problem-box">
+    <div class="problem-text">
+      <h2>문제 및 해결</h2>
+    </div>
+    <div class="problem">
+      <h2>git & github</h2>
+      <ul class="solve">
+        <li>
+          <h3>문제</h3>
+          <p>파일 충돌문제 생김</p>
+        </li>
+        <li class="git"><img src="./image/gear.png" alt="겹쳐있는 톱니바퀴"></li>
+        <li>
+          <h3>해결</h3>
+          <p>구글 검색 후 git으로 해결</p>
+        </li>
+      </ul>
+      <h2>스크롤시 이미지 확대</h2>
+      <ul class="solve">
+        <li>
+          <h3>문제</h3>
+          <p>스크롤시 이미지가 확대되고 다음스크롤로 넘어야함</p>
+        </li>
+        <li class="green-sock"><img src="./image/gear.png" alt="겹쳐있는 톱니바퀴"></li>
+        <li class="green-sock-text">
+          <h3>해결</h3>
+          <p>green sock플러그인 사용</p>
+        </li>
+      </ul>
+      <h2>스크롤시 텍스트 좌우 움직임</h2>
+      <ul class="solve">
+        <li>
+          <h3>문제</h3>
+          <p>스크롤시 텍스트가 좌우로 움직이는 js & jQ가 필요</p>
+        </li>
+        <li class="file"><img src="./image/gear.png" alt="겹쳐있는 톱니바퀴"></li>
+        <li class="file-text">
+          <h3>해결</h3>
+          <p>내가 전에 사용한 자바스크립에서 가져와 방향만 바꾸고 적용</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="good-bad">
+    <div class="bad">
+      <h2>부족한점</h2>
+      <ul class="bad-text">
+        <li>1. 메인 페이지에서 사진들 하나씩 fade in / fade out 할 수 있게 구현을 못 한게 부족함</li>
+        <li>2. 서브페이지는 새창으로 열리는게 편하다고 생각을 했는데 내가 사이트를 이용이 불편해서 수정</li>
+        <li>3. README의 파일의 작성 부분에서 팀원이 읽기 쉽게 작성을 했어야 하는 아쉬움</li>
+        <li>4. 같은 파일을 여러명이 수정했을 때 충돌하는 부분이 있어서 이걸 해결하는게 어려움</li>
+        <li>5. 아직은 디테일한 부분은 많이 부족한거 같다 좀 더 꼼꼼하게 확인을 못한점</li>
+      </ul>
+    </div>
+    <div class="good">
+      <h2>잘한점</h2>
+      <ul class="good-text">
+        <li>팀원들과의 적극적으로 소통</li>
+        <li>github를 이용해서 README파일로 그날에 무엇을 했는지 작성</li>
+        <li>ㄴ 그날 작업을 일지로 작성하니깐 내가 다음에 작업을 할때 무엇을 해야 하는지 알 수 있어서 편리했다.</li>
+        <li>잘모르는 스크립트는 구글에 검색을 해서 나한테 맞는 구조로 만들어서 활용</li>
+        <li>green sock의 플러그인을 사용해서 이벤트를 적용</li>
+      </ul>
+    </div>
+  </section>
+  <section class="learn-review">
+    <div class="learn">
+      <ul class="learn-box">
+        <li>1. siwper적용</li>
+        <li>2. 외부 자바스크립트 적용</li>
+        <li>3. github를 이용한 README파일 활용과 git 활용</li>
+        <li>4. github에서 파일 충돌시 해결 방법</li>
+        <li>5. 팀 프로젝트의 중요성</li>
+        <li>6. 구글검색으로 자바스크립 활용</li>
+      </ul>
+    </div>
+    <div class="review">
+      <ul class="review-box">
+        <li>팀 프로젝트 하면서 어려운 점은 없었다,</li>
+        <li>다들 너무 잘해주셨고 소통도 빠르고 활발해서 작업이 편했다, 다들 각자 자기가 맡은 부분을 잘 해주셔서 잘 마무리가 되었고 부족한 부분은 서로가 잘 채워줘서 css나 자바스크립 할 때 도움이
+          많이 됐다.READMDE 파일을 활용이 많이 도움이 된 거 같다, 언제 어디 부분에서 수정을 했는지 한눈에 볼 수 있어서 좋았다.</li>
+        <li>주석을 좀 더 세세하게 나눠서 작성한게 도움이 됐다, 전에는 큰 부분만 나눠서 주석을 작성을 했는데 다른 팀원이 세세하게 적은 주석을 봤는데 너무 잘 정리가 되어있어서 그 이후에 세세하게
+          적으려고 노력하고 있고 주석 활용을 어떻게 하면 좋은지를 배운거 같다.</li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="slide">
+      <div class="viewBox">
+        <div class="slideBox">
+          <div class="leftbox">
+            <div class="slideItem">TEAM-JAVAS</div>
+            <div class="slideItem">BAY HILL</div>
+            <div class="slideItem">TEAM-JAVAS</div>
+          </div>
+          <div class="rightbox">
+            <div class="slideItem">TEAM-JAVAS</div>
+            <div class="slideItem">BAY HILL</div>
+            <div class="slideItem">TEAM-JAVAS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="address">
+      <ul class="btn">
+        <li>
+          <div class="arrow-left"></div>
+        </li>
+        <li>
+          <a href="https://geon3017.github.io/portfolio_geon/">
+            <p>bay hill 보러가기</p>
+          </a>
+        </li>
+        <li>
+          <div class="arrow-right"></div>
+        </li>
+      </ul>
+    </div>
+    <ul class="top-going">
+      <li>Choi Geon</li>
+      <li><a href="#">back to top</a></li>
+      <li>20230719</li>
+    </ul>
+  </footer>
+</body>
+
+</html>
