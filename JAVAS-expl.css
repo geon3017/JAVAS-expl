@@ -330,6 +330,10 @@ header .main-menu .circle {
   display: flex;
   align-items: center;
   margin-left: 180px;
+  border-bottom: 1px solid #fff;
+}
+.problem-box .problem .solve li {
+  margin-right: 300px;
 }
 .problem-box .problem .solve img {
   width: 50px;
