@@ -285,6 +285,11 @@ header .main-menu .circle {
   font-size: 20px;
   font-weight: bold;
 }
+.publishing .guide .guide-line:hover {
+  background-color: #222;
+  color: #fff;
+  transition: 0.3s;
+}
 .publishing .guide-text {
   margin-top: 3.385vw;
   font-size: 1.302vw;
@@ -293,12 +298,23 @@ header .main-menu .circle {
   margin: 1.563vw 0;
 }
 .publishing .guide-text .technology {
+  margin: 1.042vw 0 2.604vw;
   display: flex;
   align-items: center;
 }
-.publishing .guide-text .technology img {
+.publishing .guide-text .technology a {
+  margin-left: 0.521vw;
+  font-size: 1.042vw;
+}
+.publishing .guide-text .technology .arrow {
+  background: url(./image/Arrow-left.png) no-repeat 50% / cover;
   margin: 0.313vw 2.188vw 0 0;
   width: 3.646vw;
+  height: 0.521vw;
+}
+.publishing .guide-text .technology:hover .arrow {
+  transform: translate(30px);
+  transition: 0.5s;
 }
 .publishing .guide li img {
   width: 15vw;
