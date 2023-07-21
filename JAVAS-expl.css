@@ -306,6 +306,9 @@ header .main-menu .circle {
   margin-left: 0.521vw;
   font-size: 1.042vw;
 }
+.publishing .guide-text .technology a:hover {
+  color: lightcoral;
+}
 .publishing .guide-text .technology .arrow {
   background: url(./image/Arrow-left.png) no-repeat 50% / cover;
   margin: 0.313vw 2.188vw 0 0;
