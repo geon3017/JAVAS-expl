@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 8.750vw;
+  padding: 0 8.75vw;
   transition: 0.4s;
   background-color: #191919;
   z-index: 1;
@@ -24,8 +24,8 @@ body {
 /******** 움직이는 원 ********/
 .main-menu .circle {
   background: url(./image/little-star-white.png) no-repeat 50% / contain;
-  width: 70px;
-  height: 70px;
+  width: 3.646vw;
+  height: 3.646vw;
   list-style: none;
 }
 header .main-menu .circle {
@@ -101,10 +101,10 @@ header .main-menu .circle {
   line-height: 1.5;
 }
 .target .overview .introduce span {
-  margin-right: 2.500vw;
+  margin-right: 2.5vw;
 }
 .target .overview .introduce .work span {
-  margin-left: 5.990vw;
+  margin-left: 5.99vw;
 }
 /******* Process *******/
 .process-style-guide {
@@ -266,7 +266,7 @@ header .main-menu .circle {
 
 /******* 퍼블리싱 ******/
 .publishing {
-  margin-top: 6.250vw;
+  margin-top: 6.25vw;
   border-bottom: 1px solid #fff;
   padding-bottom: 9.896vw;
 }
@@ -309,6 +309,7 @@ header .main-menu .circle {
 .guide .rombo .rombo-img:last-child {
   margin-left: 20.313vw;
 }
+
 /******* 문제해결 ******/
 .problem-box {
   margin-top: 11.458vw;
@@ -324,13 +325,16 @@ header .main-menu .circle {
   text-transform: capitalize;
 }
 .problem-box .problem {
-  margin: 5.208vw 0 0 12.760vw;
+  margin: 5.208vw 0 0 12.76vw;
 }
 .problem-box .problem .solve {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #fff;
   width: 76.563vw;
+  margin-bottom: 5.208vw;
+}
+.problem-box .problem .box {
+  border-bottom: 1px solid #fff;
 }
 .problem-box .problem .solve li {
   margin-left: 9.375vw;
@@ -338,10 +342,199 @@ header .main-menu .circle {
 }
 .problem-box .problem .solve li p {
   margin-bottom: 4.688vw;
+  line-height: 1.5;
+  text-transform: capitalize;
 }
 .problem-box .problem .solve img {
   width: 2vw;
-  margin-bottom: 5.104vw;
-
+  margin: 2.604vw 6.771vw 5.104vw 0;
 }
-/******* fonts ******/
+.problem-box .problem .solve h3 {
+  margin-bottom: 2.083vw;
+}
+.problem-box .problem .box1 img {
+  margin-left: 4.688vw;
+}
+.problem-box .problem .file img {
+  margin-left: 1.719vw;
+}
+/******* 부족한점 ******/
+.good-bad {
+  border-top: 1px solid #fff;
+  padding-top: 8.854vw;
+}
+.good-bad .bad h2 {
+  font-size: 2.083vw;
+}
+.good-bad .bad {
+  margin-left: 10.417vw;
+}
+.good-bad .bad .bad-text {
+  margin: 7.135vw 0 13.021vw 11.563vw;
+  font-size: 1.302vw;
+  line-height: 2;
+}
+/******* 잘한점 ******/
+.good-bad .good {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 8.854vw 0 11.667vw;
+}
+.good-bad .good h2 {
+  margin-left: 10.417vw;
+  margin-bottom: 3.385vw;
+  font-size: 2.083vw;
+}
+.good-bad .good .good-text {
+  margin-left: 24.479vw;
+  font-size: 1.302vw;
+  line-height: 2.2;
+  text-transform: capitalize;
+}
+.good-bad .good .good-text .read {
+  font-size: 0.938vw;
+  margin: 0 0 0.521vw 0.521vw;
+}
+/******* 배운점 ******/
+.learn-review {
+  margin-top: 8.854vw;
+}
+.learn-review .learn {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 11.563vw;
+}
+.learn-review h2 {
+  font-size: 2.083vw;
+  margin-left: 10.417vw;
+}
+.learn-review .learn-box {
+  margin: 3.125vw 0 0 33.854vw;
+  font-size: 1.302vw;
+  line-height: 2;
+}
+/******* 개인리뷰 ******/
+.learn-review .review {
+  margin-top: 8.854vw;
+}
+.learn-review .review .review-box {
+  margin: 7.292vw 0 0 18.75vw;
+  font-size: 1.302vw;
+}
+.learn-review .review .review-box li {
+  margin-bottom: 2.604vw;
+  line-height: 1.7;
+}
+
+/******** footer *********/
+footer {
+  margin-top: 15.625vw;
+  color: #fff;
+}
+footer .slide {
+  margin-bottom: 9.115vw;
+}
+/* footer slide */
+.viewBox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.leftbox,
+.rightbox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 0 20px;
+}
+.slideItem {
+  font-size: 10vw;
+  font-weight: 300;
+  color: #fff;
+  padding: 0 10px;
+}
+.slideBox {
+  width: 400%;
+  height: 12vw;
+  display: flex;
+  animation: flowText 20s linear infinite;
+}
+@keyframes flowText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/******** address *******/
+footer .address {
+  border-bottom: 2px solid #fff;
+  width: 76.563vw;
+  margin: 0 auto;
+  font-size: 1.823vw;
+}
+footer .address p {
+  width: 17.031vw;
+  height: 3.802vw;
+  margin: 0 auto;
+  font-size: 1.042vw;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 4.167vw;
+  line-height: 3.6;
+  text-transform: uppercase;
+}
+footer .address .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .address .btn li {
+  margin: 0 50px;
+}
+/****** 좌측 화살표 *******/
+footer .address .btn .arrow-left {
+  background: url(./image/Arrow-left.png) no-repeat 50% / contain;
+  width: 5vw;
+  height: 1vw;
+  margin-bottom: 3.646vw;
+}
+/****** 우측 화살표 *******/
+footer .address .btn .arrow-right {
+  background: url(./image/Arrow-right.png) no-repeat 50% / contain;
+  width: 5vw;
+  height: 1vw;
+  margin-bottom: 3.646vw;
+}
+
+/***** 버튼 이벤트 ******/
+footer .address .btn p:hover {
+  background-color: #ebebeb;
+  color: #222;
+  transition: 0.2s;
+}
+
+/****** 화살표 이벤트 ******/
+footer .address .btn:hover .arrow-left {
+  transform: translateX(50px);
+  transition: 0.5s;
+}
+footer .address .btn:hover .arrow-right {
+  transform: translateX(-50px);
+  transition: 0.5s;
+}
+
+footer .top-going {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.729vw;
+  height: 4.167vw;
+  font-size: 1.302vw;
+  padding: 0 11.979vw;
+}
