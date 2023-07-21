@@ -32,18 +32,6 @@ $(function () {
   });
 });
 
-$('#project').on('click', () => {
-  $('.menu').slideToggle();
-});
-
-$('#about').on('click', () => {
-  $('.menu').slideToggle();
-});
-
-$('#home').on('click', () => {
-  $('.menu').slideToggle();
-});
-
 // 스크롤 이벤트
 window.onscroll = function () {
   scrollRotate(); // DOM에서 함수 onscroll(),를 호출할 함수 를 만듭니다 scrollRotate()
